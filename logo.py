@@ -21,7 +21,7 @@ caption = """
 
 🌺 **Requestor** : ** {} **
 
-🌀 **Powered By **  : **[🌀 zoneunlimited 🌀 ](https://t.me/zoneunlimited)**
+🌀 **Powered By **  : **[ 🎶EDM MŰ§ÏČ PŁÅČƏ.🇱🇰 ](https://t.me/nonstopedm)**
 
 ◇───────────────◇️  
     """
@@ -29,10 +29,10 @@ caption = """
 
 START_BUTTONS=[
     [
-        InlineKeyboardButton('🌀 Update Channel 🌀', url='https://t.me/zoneunlimited'),
-        InlineKeyboardButton('🚀 Support Group 🚀', url='https://t.me/zoneunlimitedchat'),
+        InlineKeyboardButton('🎶EDM MŰ§ÏČ PŁÅČƏ.🇱🇰', url='https://t.me/nonstopedm'),
+        InlineKeyboardButton('🚀 Support Group 🚀', url='https://t.me/nonstopedm'),
     ],
-    [InlineKeyboardButton('🌺 Github Repository 🌺', url='https://github.com/zoneunlimited/logo-tools')],
+    [InlineKeyboardButton('🌺 Github Repository 🌺', url='ඒවා දෙන්න බැ අනේ')],
 ]
 
 #◇───────────────────────────────────────◇ 
