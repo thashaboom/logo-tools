@@ -5,23 +5,23 @@ import os
 import requests
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-API_ID = int(os.environ.get("API_ID"))
-API_HASH = os.environ.get("API_HASH")
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+API_ID = int(os.environ.get("9963698"))
+API_HASH = os.environ.get("f0da0af0ccf385757281ff9ac8f0810b")
+BOT_TOKEN = os.environ.get("5247938467:AAGz2l3vRDt3eXYknHCmVGrtxh_UC5a-VBs")
 
 logo = Client("logo Bot", bot_token = BOT_TOKEN, api_id = API_ID, api_hash = API_HASH)
 
 
 caption = """
-✍️ Logo Created Successfully✅
+✍️ Logo Created Successfully✔️
 
 ◇───────────────◇
 
-🚀 **Created By** : **[LOGO GENERATE BOT 🔅](https://t.me/The_logo_generate_bot)**
+🚀 **Created By** : **[LOGO GENERATE BOT 🔅](http://t.me/shalilogogenarator_bot)**
 
 🌺 **Requestor** : ** {} **
 
-🍀 **Powered By **  : **[🍀 zoneunlimited 🍀 ](https://t.me/zoneunlimited)**
+🌀 **Powered By **  : **[🌀 zoneunlimited 🌀 ](https://t.me/zoneunlimited)**
 
 ◇───────────────◇️  
     """
@@ -29,17 +29,17 @@ caption = """
 
 START_BUTTONS=[
     [
-        InlineKeyboardButton('🍀 Update Channel 🍀', url='https://t.me/zoneunlimited'),
+        InlineKeyboardButton('🌀 Update Channel 🌀', url='https://t.me/zoneunlimited'),
         InlineKeyboardButton('🚀 Support Group 🚀', url='https://t.me/zoneunlimitedchat'),
     ],
-    [InlineKeyboardButton('🌷 Github Repository 🌷', url='https://github.com/zoneunlimited/logo-tools')],
+    [InlineKeyboardButton('🌺 Github Repository 🌺', url='https://github.com/zoneunlimited/logo-tools')],
 ]
 
 #◇───────────────────────────────────────◇ 
 
 @logo.on_message(filters.command("start"))
 async def start(client,message):
-    await message.reply("🍀 Hi I am Logo Generate Bot Telegram...",
+    await message.reply("🌀 Hi I am Logo Generate Bot Telegram...",
     reply_markup=START_BUTTONS)
 
 #◇───────────────────────────────────────◇ 
@@ -53,7 +53,7 @@ async def on_off_antiarab(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🍀 Open In Google 🍀", url=f"{photo}"
+                        "🌀 Open In Google 🌀", url=f"{photo}"
                     )
                 ]
             ]
@@ -71,7 +71,7 @@ async def on_off_antiarab(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🍀 Open In Google 🍀", url=f"{photo}"
+                        "🌀 Open In Google 🌀", url=f"{photo}"
                     )
                 ]
             ]
@@ -94,7 +94,7 @@ async def on_off_antiarab(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🍀 Open In Google 🍀", url=f"{img}"
+                        "🌀 Open In Google 🌀", url=f"{img}"
                     )
                 ]
             ]
@@ -112,7 +112,7 @@ async def on_off_antiarab(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🍀 Open In Google 🍀", url=f"{photo}"
+                        "🌀 Open In Google 🌀", url=f"{photo}"
                     )
                 ]
             ]
